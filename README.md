@@ -25,6 +25,16 @@ python Project/infer_audio_to_npz.py --checkpoint Project/checkpoints/audio_text
 
 ---
 
+## 预训练模型 best.pt / Pretrained Model (best.pt)
+
+**中文：** 可直接下载预训练权重 **best.pt** 用于推理，下载后放入 `Project/checkpoints/audio_text_to_mouth/`，再按上方推理命令使用。
+
+**English:** You can download the pretrained checkpoint **best.pt** for inference. Place it in `Project/checkpoints/audio_text_to_mouth/` and use the inference command above.
+
+- **下载 / Download:** [best.pt（Google Drive）](https://drive.google.com/file/d/1J5gup93rqECZR0y6XlyWolSAzQVFqBDG/view?usp=drivesdk)
+
+---
+
 ## 获取训练数据 / Obtaining Training Data
 
 **中文：** **获取数据需将本项目放在 inferno 仓库下**，在 **inferno 仓库根目录** 执行下方命令。脚本依赖 inferno 的人脸重建与检测。输出为 `out_dir/<视频名>.npz` 与 `.mp3`，即可用于训练。若只拷贝了 Project 而未放在 inferno 下，需按 `data/训练数据格式说明.md` 自行准备 npz + mp3。
