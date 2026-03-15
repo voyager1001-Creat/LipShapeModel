@@ -1,0 +1,18 @@
+# Project 独立运行依赖（训练/推理/emica_export）
+# 安装: pip install -r requirements.txt
+# 国内镜像: pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+torch>=1.9.0
+numpy>=1.19.0
+# 音频加载（Dataset / 推理截段）
+librosa>=0.9.0
+# Wav2Vec2 编码器
+transformers>=4.20.0
+# Whisper 词对齐（推理）：二选一
+faster-whisper
+# openai-whisper
+# 可选：国内从 ModelScope 下载 Whisper
+# modelscope
+# FLAME .obj 导出
+chumpy
+# 若 chumpy 报错可: pip install "numpy<1.24" 或 pip install chumpy --no-build-isolation

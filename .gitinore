@@ -1,0 +1,20 @@
+# Project: 不上传的数据、模型与 checkpoint
+流程.txt
+Project/流程.txt
+Project/data/1/
+Project/data/2/
+Project/data/3/
+Project/data/4/
+Project/data/5/
+Project/data/6/
+Project/data/7/
+Project/data/8/
+Project/data/9/
+Project/data/10/
+Project/data/11/
+Project/model/FLAME/
+Project/model/whisper_models/
+Project/model/**/*.pkl
+Project/model/**/*.pt
+Project/model/**/*.pth
+Project/checkpoints/audio_text_to_mouth/*.pt

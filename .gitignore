@@ -1,0 +1,29 @@
+# 单独上传 Project 时不上传：数据目录 1–11、模型文件、流程说明、checkpoint
+# When uploading Project alone: exclude data dirs, model assets, 流程.txt, .pt checkpoints
+
+流程.txt
+
+# data 下编号目录（训练/验证数据）
+data/1/
+data/2/
+data/3/
+data/4/
+data/5/
+data/6/
+data/7/
+data/8/
+data/9/
+data/10/
+data/11/
+
+# model 下模型与权重（不随仓库上传，需自行放到 model/ 下）
+model/FLAME/
+model/whisper_models/
+model/wav2vec2-base-960h/
+model/FaceReconstruction/
+model/**/*.pkl
+model/**/*.pt
+model/**/*.pth
+
+# 训练得到的 checkpoint
+checkpoints/audio_text_to_mouth/*.pt
