@@ -31,7 +31,7 @@ python Project/infer_audio_to_npz.py --checkpoint Project/checkpoints/audio_text
 
 **English:** You can download the pretrained checkpoint **best.pt** for inference. Place it in `Project/checkpoints/audio_text_to_mouth/` and use the inference command above.
 
-- **下载 / Download:** [best.pt（Google Drive）](https://drive.google.com/file/d/1J5gup93rqECZR0y6XlyWolSAzQVFqBDG/view?usp=drivesdk)
+- **下载 / Download:** [best.pt（Google Drive）](https://drive.google.com/file/d/1J5gup93rqECZR0y6XlyWolSAzQVFqBDG/view?usp=drivesdk)/(https://pan.quark.cn/s/e9485c286448)
 
 ---
 
